@@ -1,0 +1,19 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform.lock.hcl
+crash.log
+
+# SSH Keys
+*.pem
+*.ppk
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/vpc-key
+vpc-key.pub
